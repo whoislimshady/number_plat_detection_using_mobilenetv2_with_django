@@ -2,7 +2,11 @@
 
 {% block content%}
 
-    <h2>Uplaod Image for Classification</h2>
+
+<div style="background-image: url('img_girl.jpg');">
+ 
+    </div>
+    <h1 style="color: white;">Uplaod Image for Classification</h1>
 
     
     <br>
@@ -10,14 +14,20 @@
     <form method="post" enctype="multipart/form-data" action="predictImage">
   
  {% csrf_token %}
- <div class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br><br>
+ <div style="color: white;" class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br><br>
  <br>
 
  
- <input type="submit" value="Submit" ></div>
+ <input type="submit" value="Submit" style="background-color:black ;color: white;" ></div>
+<br>
 
- <h2>The Number on  Numberplate is  {{final_string}}</h2>
- 
+<h1 style="color: white;">The Number on  Numberplate is  {{final_string}}</h1>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
 
 
 </form>
