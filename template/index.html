@@ -14,11 +14,12 @@
     <form method="post" enctype="multipart/form-data" action="predictImage">
   
  {% csrf_token %}
- <div style="color: white;" class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br><br>
+ <div style="color: white;" class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br>
+ <input type="submit" value="Submit" style="background-color:black ;color: white;" ><br>
  <br>
 
  
- <input type="submit" value="Submit" style="background-color:black ;color: white;" ></div>
+</div>
 <br>
 
 <h1 style="color: white;">The Number on  Numberplate is  {{final_string}}</h1>
