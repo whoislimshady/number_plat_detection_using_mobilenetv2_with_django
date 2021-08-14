@@ -10,10 +10,6 @@ Django
 django-heroku
 flatbuffers
 gast
-
-
-
-
 google-auth
 google-auth-oauthlib
 google-pasta
@@ -33,7 +29,8 @@ oauthlib
 opencv-python
 opt-einsum
 Pillow
-psycopg
+
+
 pyasn1
 pyasn1-modules
 pyparsing
