@@ -33,7 +33,6 @@ oauthlib
 opencv-python
 opt-einsum
 Pillow
-protobuf
 psycopg
 pyasn1
 pyasn1-modules
