@@ -46,7 +46,6 @@ scipy
 six
 sqlparse
 tensorboard-cpu
-
 threadpoolctl
 typing-extensions
 urllib3
