@@ -32,11 +32,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We trained mobilenetv2  architecture for number plate detection using 35k images you can find notebook to demo here 
+We trained mobilenetv2  architecture for number plate detection using 35k images and deployed it with django application 
 Here's why:
 * we selected mobilnetv2 because it needed less processing power and can easily run on iot devices 
 * Takes less time to train the model 
 * Higher fps even on low end devices :smile:
+* we selected django cause it is robust framework to work with
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -57,6 +58,7 @@ Frameworks/libraries used in  project.
 * [Tensorflow](https://www.tensorflow.org/resources/learn-ml)
 * [Keras](https://keras.io/)
 * [Jupyter notebook](https://jupyter.org/)
+* [django](https://www.djangoproject.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,6 +90,10 @@ _Below is an example of how you can instruct your audience on installing and set
   ```sh
   pip install -r requirements.txt
   ```
+4. To Run the app
+  ```sh
+  python manage.py runserver
+  ```
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -97,7 +103,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The trained model can later be used to solve security related issues
+The webapp can used to see watch cameras and security
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
